@@ -14,7 +14,7 @@ Para trabalhar com o Apache Spark, primeiro devemos conectar no cluster Spark (s
 
 No Spark, um DataFrame é uma coleção distribuída de dados organizados em colunas nomeadas. É conceitualmente equivalente a uma tabela em um banco de dados relacional ou um dataframe em R e/ou Python, mas com otimizações mais ricase para ambiente distribuído. Os DataFrames podem ser construídos a partir de uma ampla variedade de fontes, como: arquivos de dados estruturados, tabelas no Hive, bancos de dados externos ou RDDs.Uma vez criados, os DataFrames fornecem uma estrutura de dadosespecífica para manipulação de dados distribuídos. Semelhante aos RDDs, os DataFrames são avaliados  lentamente. Ou seja, a computação só acontece quandouma ação (por exemplo, exibir resultado, salvar saída) é necessária. Isso permite que suas execuções sejam otimizadas. Todas as operações do DataFrame também são paralelizadas automaticamente e distribuídas em clusters.
 
-O PySpark é ideal para processamento de dados e Machine Learningem ambiente em larga escala, mas para a análise exploratória e criação de gráficos, o PySpark não oferece as melhores ferramentas, devido seu caráter distribuído.Vocêpode alternar entre asestruturas de dados com PySpark e Pandas. O Pandas será ideal para criação de gráficos com o Seaborn e Matplotlib. Quando vocêcria uma estrutura de dados ela se torna um objeto em Python e cada objeto tem métodos e atributos. Objetos do Pandas serão ideais para tarefas sequenciais como criação de gráficos ou manipulações em volumes de dados menores. Para o processamento de grandes conjuntos de dados objetos do PySpark são os ideais.
+O PySpark é ideal para processamento de dados e Machine Learning em ambiente em larga escala, mas para a análise exploratória e criação de gráficos, o PySpark não oferece as melhores ferramentas, devido seu caráter distribuído.Vocêpode alternar entre asestruturas de dados com PySpark e Pandas. O Pandas será ideal para criação de gráficos com o Seaborn e Matplotlib. Quando vocêcria uma estrutura de dados ela se torna um objeto em Python e cada objeto tem métodos e atributos. Objetos do Pandas serão ideais para tarefas sequenciais como criação de gráficos ou manipulações em volumes de dados menores. Para o processamento de grandes conjuntos de dados objetos do PySpark são os ideais.
 
 Na análise exploratória foi possível ter uma boa idéia de como os dados podem estar sendo organizados, claramente há um padrão entre as variáveis, podendo com isso utilizar sem problemas o dataframe em um modelo de machine learning. Entranto, claramente é possível perceber que temos variáveis que possuem um alto nível de correlação chegando ao ponto de criar uma multicolinearidade (variáveis de entrada que representam a mesma informação). 
 
@@ -23,21 +23,11 @@ Na análise exploratória foi possível ter uma boa idéia de como os dados pode
 
 # ✅ CONCLUSION
 
-Algoritmos de Machine Learning utilizados foram: Benchmark, 
+Como resultado, utilizamos novos dados provinientes do website "bitcoincharts", os últimos dois dados (mais recentes) e vamos utilizá-los para verificar se o modelo está com uma boa previsão. Com base nas variáveis "open", "VolBTC" e "VolCurrency". Como resultado, temos valores de Predicted_Price igual a 20538.57 e 21612.56. Ao analisar os dados mostrados acima (últimas duas linhas) vemos que a diferença é dee basicamente algo em torno de $200 a $600. O que mostra que não há uma diferença tão grande, ou seja, considerando que trata-se do primeiro modelo de machine learning e também a primeira versão, o resultado é qualificado como aceitável.
 
+<img width="631" alt="image" src="https://github.com/lucashomuniz/Project-13/assets/123151332/64a8c6e2-e1df-4bd8-b93b-16ccffc0e139">
 
-
-
-
-
-
-
-
-
-
-
-
-
+Algumas medidas para otimizar e impulsionar os resultados, seria criar outras versões do modelo de Machine Learning, trabalhar um pouco mais a otimização dos hiperparâmetros, modificar a estratégia de normalização ou até criar um novo atributo. Todo o foco é voltado a experimentação, apenas dessa forma se tem um modelo de machine learning validado.
 
 # ✅ DATA SOURCES
 
