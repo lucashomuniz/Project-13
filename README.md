@@ -37,6 +37,8 @@ Another strategy is to change the way data is normalized or even create new attr
 
 The dataset is being provided to you and the data has been extracted from the website below:
 
-https://bitcoincharts.com/charts/bitstampUSD#rg60ztgSzm1g10zm2g25zv / https://drive.google.com/file/d/1zov5-RWVpyQk8vRvZXb9u3XUrWzasPvw/view
+https://bitcoincharts.com/charts/bitstampUSD#rg60ztgSzm1g10zm2g25zv
+
+https://drive.google.com/file/d/1zov5-RWVpyQk8vRvZXb9u3XUrWzasPvw/view
 
 When accessing the website, you may receive a message that it is an unsafe website. This is due to the expired digital certificate. Always be careful when accessing sites with these types of messages, but this specific site is not dangerous. Anyway, the dataset is being provided. The CSV file contains data from 2011 to 2021, with OHLC (Open, High, Low, Close) records of the Bitcoin quote, Volume in BTC and Volume in the currency (in this case the dollar). The last column indicates the weighted Bitcoin price. Timestamps are in Unix time. Timestamps without any trades or activity have their data fields filled with NaNs. If a timestamp is missing or there are jumps, it could be because Exchange was down, Exchange did not exist, or some other technical error occurred while collecting the data.
