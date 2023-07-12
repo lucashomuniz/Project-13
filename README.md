@@ -35,8 +35,8 @@ Another strategy is to change the way data is normalized or even create new attr
 
 # ✅ DATA SOURCES
 
-O dataset está sendo fornecido a você e os dados foram extraídos do site abaixo: 
+The dataset is being provided to you and the data has been extracted from the website below:
 
 https://bitcoincharts.com/charts/bitstampUSD#rg60ztgSzm1g10zm2g25zv / https://drive.google.com/file/d/1zov5-RWVpyQk8vRvZXb9u3XUrWzasPvw/view
 
-Ao acessar o web site você pode receber mensagem de que é um site inseguro. Isso se deve ao certificado digital expirado. Sempre tome cuidado ao acessar sites com esse tipo de mensagem, mas esse site em específico não apresenta perigo. De qualquer forma, o dataset está sendo fornecido. O arquivo CSV contém dadosde 2011a2021, com registrosOHLC (Open, High, Low, Close)da cotação do Bitcoin, Volume em BTC e Volume na moeda (nesse caso o dólar). A última coluna indica opreço ponderado do Bitcoin. Os “carimbos”de data/hora (timestamp) estão em hora Unix. Timestamps sem nenhuma negociação ou atividade têm seus campos de dados preenchidos com NaNs. Se estiver faltando um carimbo de data/hora ou se houver saltos, isso pode ser porque a Exchange estava inativa, a Exchange não existia ou algum outro erro técnico ocorreu na coleta dos dados.
+When accessing the website, you may receive a message that it is an unsafe website. This is due to the expired digital certificate. Always be careful when accessing sites with these types of messages, but this specific site is not dangerous. Anyway, the dataset is being provided. The CSV file contains data from 2011 to 2021, with OHLC (Open, High, Low, Close) records of the Bitcoin quote, Volume in BTC and Volume in the currency (in this case the dollar). The last column indicates the weighted Bitcoin price. Timestamps are in Unix time. Timestamps without any trades or activity have their data fields filled with NaNs. If a timestamp is missing or there are jumps, it could be because Exchange was down, Exchange did not exist, or some other technical error occurred while collecting the data.
