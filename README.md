@@ -6,7 +6,7 @@ Initially, we will use data on Bitcoin, but the model can be extended to other c
 
 We will use historical Bitcoin quote data from 2011 to 2021. Due to the atypical nature of Bitcoin in 2022, we chose not to include this data in our analysis. Based on this historical data, our model will be trained to predict the real-time Bitcoin price based on new input data. It is noteworthy that this project can be expanded to any other financial instrument that has daily quote data available.
 
-Keywords: Python Language, Apache Spark, PySpark, Data Analysis, Analytics, Criptmoedas, Bitcoin, Machine Learning, Real Time Analytics
+Keywords: Python Language, Apache Spark, PySpark, Data Analysis, Analytics, Cryptcurrencies, Bitcoin, Machine Learning, Real Time Analytics
 
 # ✅ PROCESS
 
