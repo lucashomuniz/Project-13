@@ -1,12 +1,4 @@
-# ✅ PROJECT 13
 
-This project is not focused on providing financial advice, but on exploring a relevant business context (finance area) to study tools commonly used by data scientists in data analysis. The main objective is to build a machine learning model capable of predicting cryptocurrency prices. This project will be developed from the identification of the business problem to the delivery of the predictive model, based on publicly available real data.
-
-Initially, we will use data on Bitcoin, but the model can be extended to other cryptocurrencies. Bitcoin is the first and oldest known cryptocurrency, launched in 2009 by anonymous Satoshi Nakamoto as open source. Bitcoin acts as a decentralized medium of digital exchange, with transactions verified and recorded on a distributed public ledger known as the Blockchain, eliminating the need for a central authority to keep records or broker transactions. Transaction blocks are "chained" together via SHA-256 cryptographic hashes of previous blocks, forming an immutable record of all transactions ever performed.
-
-We will use historical Bitcoin quote data from 2011 to 2021. Due to the atypical nature of Bitcoin in 2022, we chose not to include this data in our analysis. Based on this historical data, our model will be trained to predict the real-time Bitcoin price based on new input data. It is noteworthy that this project can be expanded to any other financial instrument that has daily quote data available.
-
-Keywords: Python Language, Apache Spark, PySpark, Data Analysis, Analytics, Cryptcurrencies, Bitcoin, Machine Learning, Real Time Analytics
 
 # ✅ PROCESS
 
